@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.devomar.products.xogamekotlin.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:backgroundTint="@color/colorAccent"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/friend_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/invite_btn"
+            style="@style/ButtonStyle"
+            android:background="@color/colorPrimary"
+            android:text="Invite" />
+
+        <TextView
+            android:id="@+id/accept_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="10dp"
+            android:background="@color/green"
+            android:text="Accept" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:backgroundTint="@color/colorAccent"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/login_btn"
+            style="@style/ButtonStyle"
+            android:background="@color/colorPrimary"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn1"
+                style="@style/XOButtonStyle" />
+
+            <ImageView
+                android:id="@+id/btn2"
+                style="@style/XOButtonStyle"
+                android:layout_marginStart="3pt" />
+
+            <ImageView
+                android:id="@+id/btn3"
+                style="@style/XOButtonStyle"
+                android:layout_marginStart="3pt" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn4"
+                style="@style/XOButtonStyle" />
+
+            <ImageView
+                android:id="@+id/btn5"
+                style="@style/XOButtonStyle"
+
+                android:layout_marginStart="3pt" />
+
+            <ImageView
+                android:id="@+id/btn6"
+                style="@style/XOButtonStyle"
+                android:layout_marginStart="3pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn7"
+                style="@style/XOButtonStyle" />
+
+            <ImageView
+                android:id="@+id/btn8"
+                style="@style/XOButtonStyle"
+                android:layout_marginStart="3pt" />
+
+            <ImageView
+                android:id="@+id/btn9"
+                style="@style/XOButtonStyle"
+                android:layout_marginStart="3pt" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

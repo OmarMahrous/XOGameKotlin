@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "711141970097",
+    "firebase_url": "https://xogamekotlin.firebaseio.com",
+    "project_id": "xogamekotlin",
+    "storage_bucket": "xogamekotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711141970097:android:97e75477e12cca96ba5290",
+        "android_client_info": {
+          "package_name": "com.devomar.products.xogamekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711141970097-05ahejg245hsvevou2fsbjqd8qh0s1el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devomar.products.xogamekotlin",
+            "certificate_hash": "7917f8ff871c3ba4399306eff1f2e47fe8521b48"
+          }
+        },
+        {
+          "client_id": "711141970097-9l2hgd2lbt5vrfug88d2iml4jlu4v1q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rDtUTJqW9VcfqZepHxbRZ1tOXjPxZfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711141970097-9l2hgd2lbt5vrfug88d2iml4jlu4v1q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
